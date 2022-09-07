@@ -3,3 +3,4 @@ OC Linux: дистрибутив Иностранные Ubunta Debian Русск
 База данных Postgre из консоли 
 Брокеры сообщений 
 Докеры
+https://docs.google.com/presentation/d/1GIahNvhGlyt2a4rWOGOtcZUiN8oMpixT4HqHhxA6mCo/edit#slide=id.p
