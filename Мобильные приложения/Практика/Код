@@ -102,3 +102,418 @@
          app:layout_constraintVertical_bias="0.001" />"-->
 
  </LinearLayout>
+# 4
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--    пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    вертикальная - start - влево, - end - вправо-->
+    <!--    растянуть на весь экран math_parent-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Button1"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:text="Button2"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button3"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>
+# 5
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--    пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    вертикальная - start - влево, - end - вправо-->
+    <!--    растянуть на весь экран math_parent-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_gravity=""
+        android:layout_weight="1"
+        android:text="Button1"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:text="Button2"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button3"
+        android:layout_weight="1"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
+# 6
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--    пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    вертикальная - start - влево, - end - вправо-->
+    <!--    растянуть на весь экран math_parent-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="265dp"
+        android:layout_gravity="center"
+        android:text="Button1"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:layout_gravity="end"
+        android:text="Button2"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="Button3" />
+
+</LinearLayout>
+# 7
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <!--    пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    вертикальная - start - влево, - end - вправо-->
+    <!--    растянуть на весь экран math_parent-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Must Diea!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"/>
+
+    
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="265dp"
+          android:layout_gravity="center"
+          android:layout_weight="8"
+          android:text="Button1"/>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="113dp"
+          android:layout_gravity="center"
+          android:layout_weight="1"
+          android:text="Button2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="Button3" />
+
+</LinearLayout>
+# 8
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Hello world"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    start - влево, end - вправо-->
+    <!--    растянуть на весь экран - match_parent-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="400px"
+            android:layout_gravity="center"
+            android:text="button3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="300px"
+            android:text="Button1"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button2"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
+# 9 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Hello world"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    start - влево, end - вправо-->
+    <!--    растянуть на весь экран - match_parent-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="400px"
+            android:layout_gravity="center"
+            android:text="button3"
+            android:layout_margin="8dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="300px"
+            android:text="Button1"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button2"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</LinearLayout>
+# 10
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Добро пожаловать в команию VAGA"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    start - влево, end - вправо-->
+    <!--    растянуть на весь экран - match_parent-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="400px"
+            android:layout_gravity="center"
+            android:text="mitsubishi"
+            android:layout_margin="8dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="300px"
+            android:text="toyota"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mazda"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</LinearLayout>
+# 11
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Добро пожаловать в компанию VAGA"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="289dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:src="@drawable/k1" />
+    <!--пропорции кнопок layout_weight-->
+    <!--    расположение на экране layout_gravity-->
+    <!--    start - влево, end - вправо-->
+    <!--    растянуть на весь экран - match_parent-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="400px"
+            android:layout_gravity="center"
+            android:text="Buy to Supra"
+            android:layout_margin="8dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="300px"
+            android:text="Exchage Supra"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TUM TUM"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+# 12
